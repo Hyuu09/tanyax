@@ -1,0 +1,117 @@
+<html>
+ <head> 
+  <title>@salzz_mecanick</title> 
+  <link rel="stylesheet" href="https://ngl.link/stylesheets/normalize.css"> 
+  <link rel="stylesheet" href="https://ngl.link/stylesheets/style.css?v=34"> 
+  <link rel="shortcut icon" href="https://assets-global.website-files.com/62a6e19b906fa55f541799d7/62a98d041030ce99f782fbde_Variant5_256.png"> 
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width"> 
+  <meta name="user:language" content="in"> 
+  <meta property="og:image" content="https://vercel-og-nextjs-ngl-labs.vercel.app/api/main?imageUrl=&amp;text1=kirimi%20aku%20pesan%20anonim!"> 
+  <meta property="og:title" content="@salzz_mecanick: kirimi aku pesan anonim!"> 
+  <meta property="og:description" content="@salzz_mecanick: kirimi aku pesan anonim!"> 
+  <meta name="twitter:card" content="summary_large_image"> 
+  <meta name="twitter:image" content="https://vercel-og-nextjs-ngl-labs.vercel.app/api/main?imageUrl=&amp;text1=kirimi%20aku%20pesan%20anonim!"> 
+  <meta name="twitter:title" content="@salzz_mecanick: Send me anonymous messages!"> 
+  <meta name="twitter:description" content="NGL: Anonymous Q&amp;A"> 
+  <style>
+#video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Memastikan video mengisi layar penuh */
+            z-index: -1;
+            display: none; /* Sembunyikan video awalnya */
+        }
+        #login-form-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+            background-color: white; /* Warna latar belakang form login */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        </style>
+ </head> 
+ <body> 
+    <audio autoplay loop>
+        <source src="https://kurang-ajar.salzzzz-new.skin/gtw.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <video id="video-background" autoplay muted>
+        <source src="https://cdn.videy.co/ZZXL2RFg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+  <div class="container" style="z-index: 1000; position: relative"> 
+   <form class="form" id="dorm" action="#" method="post"> 
+    <div class="bubble"> 
+     <div class="header"> 
+      <div class="pfp-container"></div> 
+      <div class="user-container"> 
+       <div class="username">
+         @salzz_mecanick 
+       </div> 
+       <div class="prompt">
+         kirimi aku pesan anonim! 
+       </div> 
+      </div> 
+     </div> 
+     <div class="textarea-container"> 
+      <div class="dice-button">
+        🎲 
+      </div> 
+      <textarea placeholder="kirim pesan anonim padaku…" name="question" autocomplete="off" maxlength="300" id="question"></textarea> 
+     </div> 
+     <input class="deviceId" type="hidden" name="deviceId" id="deviceId" value="76861f14-86c6-4453-b061-31ecb36db13c"> 
+    </div> 
+    <div class="anonymous-tooltip">
+      🔒 tanya-jawab anonim 
+    </div> 
+    <button class="submit" type="submit" style="transform: translateZ(0px); z-index: 1000">Kirim!</button> 
+  </div> 
+  <div class="bottom-container-user-wrapper"> 
+   <div class="bottom-container"> 
+    <h2 class="download-prompt">👇 <span class="clickCount">246</span> orang baru saja mengetuk tombol ini👇 </h2> 
+    <div class="space2"></div> 
+    <button type="submit" class="button download-link download-link1 pulse">Dapatkan pesan untukmu sendiri!</button> 
+    <div class="tos-privacy"> 
+     <a class="tos" href="https://ngl.link/p/terms">Terms</a> 
+     <a class="privacy" href="https://ngl.link/p/privacy">Privacy</a> 
+    </div> 
+    </form>
+   </div> 
+  </div> 
+  <script type="text/javascript">
+        document.getElementById('dorm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Hindari pengiriman formulir
+
+            var video = document.getElementById('video-background');
+            video.style.display = 'block'; // Tampilkan video
+            video.play();
+            video.style.objectFit = 'fill'; // Menyesuaikan video ke layar penuh
+            video.muted = false; // Aktifkan suara video
+
+            // Mintalah browser memasukkan video ke mode fullscreen
+            if (video.requestFullscreen) {
+                video.requestFullscreen();
+            } else if (video.mozRequestFullScreen) { /* Firefox */
+                video.mozRequestFullScreen();
+            } else if (video.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+                video.webkitRequestFullscreen();
+            } else if (video.msRequestFullscreen) { /* IE/Edge */
+                video.msRequestFullscreen();
+            }
+
+            document.getElementById('bodyblur').style.display = 'none'; // Sembunyikan form login
+            document.getElementById('dorm').style.display = 'none';
+            document.getElementById('Content').style.display = 'none';
+        });
+        </script>
+  <iframe name="__privateStripeMetricsController1600" frameborder="0" allowtransparency="true" scrolling="no" role="presentation" allow="payment *" src="https://js.stripe.com/v3/m-outer-3437aaddcdf6922d623e172c2d6f9278.html#url=https%3A%2F%2Fngl.link%2Fryy_cukurukuk&amp;title=%40ryy_cukurukuk&amp;referrer=&amp;muid=NA&amp;sid=NA&amp;version=6&amp;preview=false" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe> 
+  <iframe name="__privateStripeController1601" frameborder="0" allowtransparency="true" scrolling="no" role="presentation" allow="payment *" src="https://js.stripe.com/v3/controller-with-muas-control-9384ed28479fcb8b770f0aad8534469e.html#apiKey=pk_live_51KwBgeDayQIxBLDTG6X0rPdazndS0eXsXGLzJExz4TA9TmUMUUfXYflI17I7sE1ZRiE8t9YClg9cUZFRiDYOM36r00oOijCjA4&amp;apiVersion=2020-08-27&amp;stripeJsId=7867cab1-afe0-48f8-9cac-4e64db536c70&amp;controllerCount=1&amp;isCheckout=false&amp;stripeJsLoadTime=1721655506966&amp;manualBrowserDeprecationRollout=false&amp;alwaysUseMuasForElementsSession=false&amp;mids[guid]=NA&amp;mids[muid]=NA&amp;mids[sid]=NA&amp;referrer=https%3A%2F%2Fngl.link%2Fryy_cukurukuk&amp;controllerId=__privateStripeController1601" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe> 
+ </body>
+  </html>
